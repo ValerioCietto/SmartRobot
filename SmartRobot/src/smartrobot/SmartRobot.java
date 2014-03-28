@@ -407,7 +407,7 @@ public class SmartRobot {
 			
 		}
 		else{
-			System.out.println("Chiave non supportata "+'"'+keyName+'"');
+			System.out.println("Key not yet supported "+'"'+keyName+'"');
 		}
 		
 			
@@ -516,8 +516,9 @@ public class SmartRobot {
 		return min + (int)(Math.random() * ((max - min) + 1));
 	}
 	
-    public int compareImages(BufferedImage a){
-    	Raster buffer = a.getData();
+	//not working yet
+        public int compareImages(BufferedImage a){
+    	        Raster buffer = a.getData();
 		return -1;
 	}
 }
